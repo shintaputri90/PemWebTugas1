@@ -1,0 +1,111 @@
+/* Styling untuk body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #343a40;
+    padding: 10px 15px;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #ffc107 !important;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Gaya untuk heading */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Gaya untuk form */
+form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling tabel untuk form input */
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #495057;
+}
+
+/* Gaya untuk input, select, dan radio button */
+input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #495057;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Responsif styling untuk layar yang lebih kecil */
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+
+    td {
+        font-size: 14px;
+    }
+
+    input[type="text"], input[type="date"], select {
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,105 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 100;
+    padding: 0;
+}
+
+.navbar {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #343a40;
+    padding: 10px 15px;
+}
+
+.navbar-brand, .nav-link {
+    
+    color: #fff !important;
+}
+
+.h1 {
+    margin:100 auto;
+}
+
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #ffc107 !important;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+form {
+    width: 60%;
+    margin: 40 auto;
+    background-color: #fff;
+    padding: 90px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+table {
+    width: 100%;
+    margin-top: 100px;
+}
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #495057;
+}
+
+input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #495057;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+
+    td {
+        font-size: 14px;
+    }
+
+    input[type="text"], input[type="date"], select {
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        font-size: 16px;
+    }
+}
